@@ -1,0 +1,200 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    background: url("../img/index/hotelteq.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+.nav-lat {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #6e7785;
+    color: #fff;
+    padding: 20px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container img {
+    width: 200px; 
+    margin-bottom: 20px;
+}
+
+.nav-container h1 {
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.nav-container h1 .fa {
+    margin-right: 10px;
+}
+
+.nav-container .name {
+    margin-bottom: 10px;
+}
+
+.nav-container .email {
+    margin-bottom: 20px;
+}
+
+.nav-container .line {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.nav-container .logout {
+    margin-top: auto; /* Alinea el elemento al final de la barra lateral */
+    margin-bottom: 20px; /* Aumenta el espacio entre el elemento y el final de la barra lateral */
+}
+
+.nav-logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+    z-index: -2; 
+}
+
+.nav-logo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-image: url('/repositorios/-TALLER_0_Maquetaci-n_Responsive/img/vector-login.svg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; 
+}
+
+.nav-logo {
+    position: relative; 
+}
+
+.nav-logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+    z-index: -2; 
+}
+
+.nav-logo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registro {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+}
+
+.columna {
+    flex: 1;
+    padding: 10px;
+}
+
+.registro h2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+}
+
+.registro .perfil {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.registro .perfil img {
+    width: 150px;
+    height: 150px;
+}
+
+.registro .boton {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.registro .boton button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registro .boton button:hover {
+    background-color: #0056b3;
+}
+
+/* Alineación del texto */
+.registro label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registro input[type="text"], .registro input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Limpiar flotantes */
+.registro::after {
+    content: "";
+    display: table;
+    clear: both;
+}

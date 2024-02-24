@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/registro.css">
+    <script src="https://kit.fontawesome.com/ec6d9bc56f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav-lat">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/Hotelia horizontal blanco.svg" alt="Logo">
+                <h1 class="text"></i> Eres más que <br>bienvenido</h1>
+            </div>
+        </div>
+    </div>
+    <div class="registro">
+        <h2>Registrate</h2>
+        <div class="columna">
+            <label for="document-type">Tipo de Documento:</label>
+        <select name="document-type" id="document-type">
+            <option value="dni">Cedula de ciudadania</option>
+            <option value="passport">Tarjeta de identidad</option>
+            <option value="license">Cedula de extrangeria</option>
+        </select>
+        <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres">
+            <label for="fecha_nacimiento">Email:</label>
+            <input type="text" id="Email">
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+            <label for="pais_origen">País de origen:</label>
+            <input type="text" id="pais_origen">
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña">
+            
+        </div>
+        <div class="columna">
+            <label for="num_documento">Número de documento:</label>
+            <input type="text" id="num_documento">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos">
+            <label for="gender">Género:</label>
+            <select name="gender" id="gender">
+                <option value="male">Masculino</option>
+                <option value="female">Femenino</option>
+                <option value="other">Otro</option>
+            </select>
+            <label for="confirmar_contraseña">Telefono de contacto</label>
+            <input type="password" id="telefono">
+            <div class="add-photo">
+                <label for="foto">Foto:</label>
+                <input type="file" id="foto" name="foto">
+            </div>
+            <label for="contraseña">Confirmar contraseña:</label>
+            <input type="password" id="confcontraseña">
+        </div>
+        <h2>Acepto Terminos y Condiciones</h2>
+        <div class="boton">
+            <button>Ingresar</button>
+        </div>
+    </div>
+</body>
+</html>
